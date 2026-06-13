@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "klevin",
+      "password": "123321",
+      "name": "Klevin",
+      "surname": "",
+      "patronymic": "",
+      "email": "klevin@example.local",
+      "phone": "",
+      "about": "",
+      "global_role": "user"
+    },
+    {
+      "id": 2,
+      "login": "karina",
+      "password": "123321",
+      "name": "Karina",
+      "surname": "",
+      "patronymic": "",
+      "email": "karina@example.local",
+      "phone": "",
+      "about": "",
+      "global_role": "user"
+    },
+    {
+      "id": 3,
+      "login": "admin",
+      "password": "123321",
+      "name": "Administrator",
+      "surname": "",
+      "patronymic": "",
+      "email": "admin@example.local",
+      "phone": "",
+      "about": "",
+      "global_role": "admin"
+    }
+  ],
+  "spaces": [
+    {
+      "id": 1,
+      "title": "Личное пространство",
+      "description": "",
+      "type": "personal",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Личное пространство",
+      "description": "",
+      "type": "personal",
+      "owner_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Личное пространство",
+      "description": "",
+      "type": "personal",
+      "owner_id": 3
+    }
+  ],
+  "spaceMembers": [
+    {
+      "id": 1,
+      "space_id": 1,
+      "user_id": 1,
+      "role": "owner"
+    },
+    {
+      "id": 2,
+      "space_id": 2,
+      "user_id": 2,
+      "role": "owner"
+    },
+    {
+      "id": 3,
+      "space_id": 3,
+      "user_id": 3,
+      "role": "owner"
+    }
+  ],
+  "tasks": [],
+  "events": [],
+  "notes": [],
+  "attachments": [],
+  "comments": [],
+  "friendships": [],
+  "invitations": [],
+  "friendRequests": []
+}

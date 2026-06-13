@@ -1,0 +1,18 @@
+{
+  "name": "klevinplan-webapp",
+  "version": "1.0.0",
+  "description": "Demonstration implementation of the KlevinPlan collaborative planner.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "better-sqlite3": "^11.9.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
